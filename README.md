@@ -13,7 +13,10 @@ directory.
 
 ## Results
 
-Seems some outputs are not good.You maybe can train it by yourself to  get better,you need to download COCO datasets or others.
+Seems some outputs are not always good.You maybe can train it by yourself to  get better,you need to download COCO datasets or others.
+However, some people may not know that COCO is the most difficult dataset in detection filed.You can get 80% mAP in PASCAL VOC,but
+may only get 30% mAP in COCO.This is because of COCO's big classes and large number of  bounding boxes in each image, including some very 
+small objects.
 
 ![](https://github.com/cryer/YOLOv2/raw/master/out/test.jpg)
 
